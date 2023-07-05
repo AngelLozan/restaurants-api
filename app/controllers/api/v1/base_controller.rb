@@ -1,5 +1,5 @@
 class Api::V1::BaseController < ActionController::API
-  include Pundit # Include Pundit for authorization
+  include Pundit::Authorization # Include Pundit for authorization
 
   # Check pundit authorization after every action
   after_action :verify_authorized, except: :index

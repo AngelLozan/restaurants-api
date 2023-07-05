@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class CommentsPolicyTest < ActiveSupport::TestCase
+class CommentPolicyTest < ActiveSupport::TestCase
   def test_scope
   end
 
