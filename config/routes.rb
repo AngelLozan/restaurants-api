@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # Use namespace so that the url will be /api/v1/[resource]
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
-      resources :restaurants, only: [ :index, :show ]
+      resources :restaurants, only: [ :index, :show, :update ]
     end
   end
 end

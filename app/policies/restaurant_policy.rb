@@ -5,4 +5,8 @@ class RestaurantPolicy < ApplicationPolicy
       scope.all
     end
   end
+
+  def show?
+    true # All users can see a restaurant
+  end
 end
