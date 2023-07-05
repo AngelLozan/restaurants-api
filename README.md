@@ -42,3 +42,8 @@ Sticking to one user, one token.
 Update restraurants through restraurants controller. Policy affects this.
 
 Adding comments is done through seperate controller and policy.
+
+### To do:
+
+- [ ] Add unit tests
+- [ ] Seed data
