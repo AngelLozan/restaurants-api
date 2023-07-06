@@ -4,11 +4,13 @@ To demonstrate API creation and authentication with Rails. Can create restaurant
 ## Docs
 
 Call all restaurants
-```curl -s http://localhost:3000/api/v1/restaurants | jq
+```
+curl -s http://localhost:3000/api/v1/restaurants | jq
 ```
 
 Call one restaurant
-```curl -s http://localhost:3000/api/v1/restaurants/1 | jq
+```
+curl -s http://localhost:3000/api/v1/restaurants/1 | jq
 ```
 Update a restaurant
 ```
