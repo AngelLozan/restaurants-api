@@ -20,8 +20,6 @@ curl -i -X PATCH                                        \
        http://localhost:3000/api/v1/restaurants/1
 ```
 
-
-
 Create a restaurant
 ```
 curl -i -X POST                                                              \
