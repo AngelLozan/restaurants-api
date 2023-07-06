@@ -93,4 +93,4 @@ Adding comments is done through seperate controller and policy.
 ### To do:
 
 - [ ] Add unit tests
-- [ ] Seed data
+- [✔️] Seed data
